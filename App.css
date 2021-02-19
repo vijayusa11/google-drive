@@ -1,0 +1,31 @@
+.app__main {
+    display: flex;
+}
+
+.app__login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 12%;
+    margin-bottom: auto;
+}
+
+.app__login > button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(67,130,244);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all .2s;
+    margin-top: 15px;
+}
+
+.app__login > button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(49,94,179);
+}
